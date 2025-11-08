@@ -29,7 +29,7 @@ describe('first Test suite',function(){
         cy.get('.brand.greenLogo').should('have.text','GREENKART')
         cy.get('img[alt="Cart"]').click()
         cy.contains('PROCEED TO CHECKOUT').click()
-        cy.contains('Place Order').click()
+        cy.contains('Place Order1').click()
         
 
     })
