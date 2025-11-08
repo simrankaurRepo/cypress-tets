@@ -1,4 +1,4 @@
-describe('calendar test',function(){
+//describe('calendar test',function(){
 //     it('select date', function(){
 //         cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/offers');
 //         cy.get('.react-date-picker__inputGroup').click();
@@ -14,7 +14,11 @@ describe('calendar test',function(){
 //           getDate.contains('11/06/2027')
 //   })
 //     })
-    it('open site', function(){
-       cy.visit('https://dev:0fuDmngYGBBI8XDLsekC@main.mccoy.care/startjourney/1');  
-    })
-})
+//     it('open site', function(){
+//        cy.visit('https://dev:0fuDmngYGBBI8XDLsekC@main.mccoy.care/startjourney/1');  
+//        cy.get('.light').should('be.visible')
+//        cy.contains("cm").next().click()
+//        cy.get('[name="height-cm"]').type("100")
+       
+//     })
+// })
